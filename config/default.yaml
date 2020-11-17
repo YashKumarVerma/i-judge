@@ -1,0 +1,7 @@
+app:
+  name: "I Judge"
+
+  # configurations about app behavior
+  emoji: true
+  
+  
