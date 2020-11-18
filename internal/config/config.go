@@ -15,7 +15,7 @@ func loadConfigurations() {
 	ui.CheckError(err, "config file not found, using default config", false)
 
 	// set default configurations
-	viper.SetDefault("app.name", "go-sql")
+	viper.SetDefault("app.name", "I Judge")
 	viper.SetDefault("app.emoji", true)
 
 	// save configurations onto exported object
