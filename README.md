@@ -1,7 +1,6 @@
 # I Judge
 
-and i do it good
-
+and i do it good. This project is **not an online judge**. It only executes programs.
 
 ## Is it of my use
 It's a simple prototype to run a program / binary / object file using system calls, with provisions to pipe input into stdin, and capture stdout. If that's what you are looking for, then yes, it's of your use.
