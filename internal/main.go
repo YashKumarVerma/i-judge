@@ -22,7 +22,7 @@ func main() {
 	os.Stdout = write
 
 	//Just for testing, replace with your subProcess
-	subProcess := exec.Command("/home/yash/Desktop/files/works/projects/i-judge/codes/question1/a.out")
+	subProcess := exec.Command("/home/yash/Desktop/files/works/projects/i-judge/codes/question1/one.out")
 	stdin, err := subProcess.StdinPipe()
 	ui.CheckError(err, "Error creating stdin pipe", true)
 	defer stdin.Close()
